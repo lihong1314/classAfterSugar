@@ -1,0 +1,18 @@
+.endbtn{
+    width:20vw;
+    position: absolute;
+    left:42vw;
+    top:50%;
+    
+}
+.endbtnimg{
+    width:20vw;
+    position: absolute;
+    left:0vw;
+    top:0%;
+    transform: translateY(78%);
+    -webkit-transform: translateY(78%);
+    -moz-transform: translateY(78%);
+    -ms-transform: translateY(78%);
+    -o-transform: translateY(78%);
+}

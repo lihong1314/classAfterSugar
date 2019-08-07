@@ -1,0 +1,173 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position:fixed;top:0;left:0;
+}
+
+img{
+  display: block;
+}
+
+.FullScreen {
+  width: 100vw;
+}
+
+.WordB,.SentenceB,.Game {
+  width: 100vw;
+  position: relative;
+}
+
+.Word {
+  width: 29vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15.5vw;
+  transform: translateY(-70%)
+
+}
+
+.Sentence{
+  width: 30vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15vw;
+  transform: translateY(-65%)
+
+}
+
+.GameBg{
+  width: 100%;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+.GameTitle{
+  width: 19.563vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -9.75vw;
+  /* transform: translateY(30%); */
+  transform: translateY(-450%);
+}
+.GameTitle img{
+  width: 100%;
+  height: 100%;
+}
+.OneAB{
+  width: 100%;
+  
+}
+.OneA,.OneB{
+  width: 20vw;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-111%);
+}
+.OneA img,.OneB img{
+  width: 100%;
+  height: 100%;
+} 
+.OneA{
+  left: 19.5vw;
+}
+.OneB{
+  right: 19.5vw;
+}
+.default{
+  width: 17.5vw;
+  position: absolute;
+  top: 50%;
+  transform: translateY(27%);
+  left: 41.25vw;
+}
+.fail{
+  width: 44.25vw;
+  position: absolute;
+  left: 35vw;
+  top: 50%;
+  transform: translateY(-25%);
+
+}
+.successR{
+  width: 40.25vw;
+  position: absolute;
+  left: 37.125vw;
+  top: 50%;
+  transform: translateY(-29%);
+}
+
+.successL{
+  width: 40.25vw;
+  position: absolute;
+  left: 22.625vw;
+  top: 50%;
+  transform: translateY(-29%) rotateY(180deg);
+}
+.selectTwo{
+  width: 34.5vw;
+  position: absolute;
+  left: 32.375vw;
+  top: 50%;
+  transform: translateY(650%);
+}
+
+.cuo{
+  width: 15.75vw;
+  position: absolute;
+  left: 21.5vw;
+  top: 50%;
+  transform: translateY(-149%);
+}
+.cuoR{
+  width: 15.75vw;
+  position: absolute;
+  left: 62.5vw;
+  top: 50%;
+  transform: translateY(-149%);
+}
+.dui{
+  width: 13.25vw;
+  position: absolute;
+  left: 64.438vw;
+  top: 50%;
+  transform: translateY(-170%);
+}
+.duiL{
+  width: 13.25vw;
+  position: absolute;
+  left: 23.438vw;
+  top: 50%;
+  transform: translateY(-170%);
+}
+.sentence{
+  width: 100vw;
+  font-size: 4.75vw;
+  color: #309387;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-150%);
+}
+.sentence span{
+  margin: 0 1%;
+}
+.heightLight{
+  color: #ffe600;
+}
+.hide{
+  display: none
+}

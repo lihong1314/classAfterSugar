@@ -1,0 +1,368 @@
+.optionA{
+    width:17vw;
+    position: absolute;
+    left:22.4vw;
+    top:2vw;
+}
+.optionA img{
+    width:100%;
+}
+
+img.option{
+    width:17vw!important;
+    position: absolute;
+    left:0vw;
+    top:1vw
+}
+.optionA img.taizi{
+    width:19vw;
+    height:4.5vw;
+    position: absolute;
+    left:-1vw;
+    bottom:-22%
+}
+
+.optionB{
+    width:17vw;
+    position: absolute;
+    left:64vw;
+    top:2vw;
+}
+.optionB img{
+    width:100%;
+}
+.optionB img.taizi{
+    width:19vw;
+    height:4.5vw;
+    position: absolute;
+    left:-1vw;
+    bottom:-22%
+}
+
+.optionC{
+    width:17vw;
+    position: absolute;
+    left:22.4vw;
+    top:24vw;
+}
+.optionC img{
+    width:100%;
+}
+.optionC img.taizi{
+    width:19vw;
+    height:4.5vw;
+    position: absolute;
+    left:-1vw;
+    bottom:-22%
+}
+
+.optionD{
+    width:17vw;
+    position: absolute;
+    left:64vw;
+    top:24vw;
+}
+.optionD img{
+    width:100%;
+}
+.optionD img.taizi{
+    width:19vw;
+    height:4.5vw;
+    position: absolute;
+    left:-1vw;
+    bottom:-22%
+}
+
+.people{
+    width:9vw;
+    position: absolute;
+    left:45vw;
+    bottom:8.4vw;
+}
+
+.jump{
+    width:9vw;
+    position: absolute;
+    left:45vw;
+    bottom:0.4vw;
+}
+
+.jumpA{
+    animation: jumpAg 0.2s ease 0.7s 1;
+    -webkit-animation: jumpAg 0.2s ease 0.7s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes jumpAg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:28.4vw;
+    }
+}
+@-moz-keyframes jumpAg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:28.4vw;
+    }
+}
+
+@-webkit-keyframes jumpAg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:28.4vw;
+    }
+}
+@-o-keyframes jumpAg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:28.4vw;
+    }
+} 
+
+.jumpB{
+    animation: jumpBg 0.2s ease 0.7s 1;
+    -webkit-animation: jumpBg 0.2s ease 0.7s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes jumpBg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:28.4vw;
+    }
+}
+@-moz-keyframes jumpBg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:28.4vw;
+    }
+}
+
+@-webkit-keyframes jumpBg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:28.4vw;
+    }
+}
+@-o-keyframes jumpBg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:28.4vw;
+    }
+} 
+
+
+.jumpC{
+    animation: jumpCg 0.2s ease 0.7s 1;
+    -webkit-animation: jumpCg 0.2s ease 0.7s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes jumpCg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:6.4vw;
+    }
+}
+@-moz-keyframes jumpCg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:6.4vw;
+    }
+}
+
+@-webkit-keyframes jumpCg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:6.4vw;
+    }
+}
+@-o-keyframes jumpCg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:25vw;
+        bottom:6.4vw;
+    }
+} 
+
+
+.jumpD{
+    animation: jumpDg 0.2s ease 0.7s 1;
+    -webkit-animation: jumpDg 0.2s ease 0.7s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes jumpDg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:6.4vw;
+    }
+}
+@-moz-keyframes jumpDg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:6.4vw;
+    }
+}
+
+@-webkit-keyframes jumpDg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:6.4vw;
+    }
+}
+@-o-keyframes jumpDg{
+    0%{
+        left:45vw;
+        bottom:0.4vw;
+    }
+    100%{
+        left:66vw;
+        bottom:6.4vw;
+    }
+} 
+
+
+.cry{
+    width:10vw;
+    position:absolute;
+    left:45vw;
+    bottom:8.4vw;
+}
+
+.playbtn{
+    width:6vw;
+    position: absolute;
+    right:2.5vw;
+    top:2.5vw;
+    
+}
+.playbtn img{
+    width:100%
+}
+
+.zhizhao{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 3;
+    background:rgba(0,0,0,0.6);
+    display: none;
+}
+.correctAnswer{
+    width:26vw;
+    height:26vw;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background:#fff;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+.correctAnswer img{
+    width:100%;
+}
+
+.rightbg{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 3;
+}
+
+.lastright{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 4;
+    display: none;
+}
+.lastright .lastbg{
+    width:100%;
+}
+.lastright .uney{
+    width:26vw;
+    position: absolute;
+    left:32%;
+    bottom:3vw;
+
+}
+.sugerbig{
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 5;
+    display: none;
+}

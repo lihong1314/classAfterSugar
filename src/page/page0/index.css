@@ -1,0 +1,79 @@
+.bgbox{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.bgimg{
+    width:100%;
+}
+.btn{
+    width:20vw;
+    height:10vw;
+    position: absolute;
+    right:27.5vw;
+    bottom:11.3vw; 
+    z-index: 3;
+}
+.btnimg{
+    width:10vw;
+    position: absolute;
+    right:31.5vw;
+    bottom:13.3vw;
+}
+.btnimgbig{
+    animation: changebig 0.2s ease 1;
+    -webkit-animation: changebig 0.2s ease 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes changebig{
+    0%{
+        width:10vw;
+        right:31.5vw;
+        bottom:13.3vw;
+    }
+    100%{
+        width:11vw;
+        right:31vw;
+        bottom:13vw;
+    }
+}
+@-moz-keyframes changebig{
+    0%{
+        width:10vw;
+        right:31.5vw;
+        bottom:13.3vw;
+    }
+    100%{
+        width:11vw;
+        right:31vw;
+        bottom:13vw;
+    }
+}
+
+@-webkit-keyframes changebig{
+    0%{
+        width:10vw;
+        right:31.5vw;
+        bottom:13.3vw;
+    }
+    100%{
+        width:11vw;
+        right:31vw;
+        bottom:13vw;
+    }
+}
+@-o-keyframes changebig{
+    0%{
+        width:10vw;
+        right:31.5vw;
+        bottom:13.3vw;
+    }
+    100%{
+        width:11vw;
+        right:31vw;
+        bottom:13vw;
+    }
+} 
+
+
